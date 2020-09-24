@@ -1,2 +1,2 @@
-# github-pages-test
+# Github Pages Template
 A template for github pages
