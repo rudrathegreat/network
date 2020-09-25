@@ -84,6 +84,7 @@ Let me know your feedback of this new template in the issues section, just make 
 - 1 template for text only
 - 1 template for footer
 - 1 template for navigation bar
+- 2 templates for buttons
 - All templates are mobile responsive
 
 ## Requirements
