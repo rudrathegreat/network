@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <title>Title</title>
 </head>
 <body>
@@ -21,5 +23,61 @@
             </ul>
         </nav>
     </header>
+    <div class="title">
+        <table class="desktop">
+            <tr>
+                <td>
+                    <h1>Title</h1>
+                    <h2>Subtitle</h2>
+                    <a class="link-to-about" onclick="document.getElementById('text-only').scrollIntoView(true);">
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                </td>
+                <td><img src="network.jpg"></td>
+            </tr>
+        </table>
+        <table class="mobile">
+            <tr><td>
+                <h1>Title</h1>
+                <h2>Subtitle</h2>
+                <a class="link-to-about" onclick="document.getElementById('text-only').scrollIntoView(true);">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </td></tr>
+            <tr><td><img src="network.jpg"></td></tr>
+        </table>
+    </div>
+    <div class="text-only" id="text-only">
+        <h1>Heading</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem sed risus ultricies tristique nulla aliquet. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Porta nibh venenatis cras sed felis eget velit. Imperdiet proin fermentum leo vel orci porta non. Tincidunt tortor aliquam nulla facilisi cras fermentum. Hendrerit gravida rutrum quisque non tellus orci. Nec nam aliquam sem et tortor. Bibendum arcu vitae elementum curabitur vitae nunc sed. A iaculis at erat pellentesque. Pretium aenean pharetra magna ac placerat vestibulum lectus mauris ultrices. Quam vulputate dignissim suspendisse in est ante. Sit amet facilisis magna etiam tempor orci eu lobortis elementum. Porttitor massa id neque aliquam vestibulum morbi.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem sed risus ultricies tristique nulla aliquet. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Porta nibh venenatis cras sed felis eget velit. Imperdiet proin fermentum leo vel orci porta non. Tincidunt tortor aliquam nulla facilisi cras fermentum. Hendrerit gravida rutrum quisque non tellus orci. Nec nam aliquam sem et tortor. Bibendum arcu vitae elementum curabitur vitae nunc sed. A iaculis at erat pellentesque. Pretium aenean pharetra magna ac placerat vestibulum lectus mauris ultrices. Quam vulputate dignissim suspendisse in est ante. Sit amet facilisis magna etiam tempor orci eu lobortis elementum. Porttitor massa id neque aliquam vestibulum morbi.</p>
+    </div>
+    <div class="title-2" style="background-image:url("network.jpg");">
+        <h1>Title</h1>
+        <h2>Subtitle</h2>
+        <a class="link-to-about" onclick="document.getElementById('text-and-image').scrollIntoView(true);">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </div>
+    <div class="text-and-image" id="text-and-image">
+        <h1>Heading</h1>
+        <table class="desktop">
+            <tr>
+                <td>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem sed risus ultricies tristique nulla aliquet. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Porta nibh venenatis cras sed felis eget velit. Imperdiet proin fermentum leo vel orci porta non. Tincidunt tortor aliquam nulla facilisi cras fermentum. Hendrerit gravida rutrum quisque non tellus orci. Nec nam aliquam sem et tortor. Bibendum arcu vitae elementum curabitur vitae nunc sed. A iaculis at erat pellentesque. Pretium aenean pharetra magna ac placerat vestibulum lectus mauris ultrices. Quam vulputate dignissim suspendisse in est ante. Sit amet facilisis magna etiam tempor orci eu lobortis elementum. Porttitor massa id neque aliquam vestibulum morbi.</p>
+                </td>
+                <td><img src="network.jpg"></td>
+            </tr>
+        </table>
+        <table class="mobile">
+            <tr><td>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem sed risus ultricies tristique nulla aliquet. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Porta nibh venenatis cras sed felis eget velit. Imperdiet proin fermentum leo vel orci porta non. Tincidunt tortor aliquam nulla facilisi cras fermentum. Hendrerit gravida rutrum quisque non tellus orci. Nec nam aliquam sem et tortor. Bibendum arcu vitae elementum curabitur vitae nunc sed. A iaculis at erat pellentesque. Pretium aenean pharetra magna ac placerat vestibulum lectus mauris ultrices. Quam vulputate dignissim suspendisse in est ante. Sit amet facilisis magna etiam tempor orci eu lobortis elementum. Porttitor massa id neque aliquam vestibulum morbi.</p>
+            </td></tr>
+            <tr><td><img src="network.jpg"></td></tr>
+        </table>
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; 2020. Organisation name. All Rights Reserved.</p>
+    </div>
 </body>
 </html>
