@@ -1,6 +1,16 @@
-# Github Pages Template
+# Network - Github Pages Template
 
-##
+## Contents
+
+- [Overview](#overview)
+- [In Depth](#in-depth)
+  - [Changing Background Image](#changing-background-image)
+  - [Changing Text](#changing-text)
+  - [Changing Color of Text](#changing-colour-of-text)
+  - [Add/Remove Elements](#addremove-elements)
+- [Feedback](#feedback)
+- [Features](#features)
+- [Requirements](#requirements)
 
 ## Overview
 
