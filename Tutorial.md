@@ -1,4 +1,31 @@
 # Building the Network Github Template
+## Contents
+
+- [What is Network?](#what-is-network)
+- [Developing the HTML](#developing-the-html)
+    - [The HTML Skeleton](#the-html-skeleton)
+    - [The Navbar](#the-navbar)
+    - [The Title](#the-title)
+    - [Text Only Section](#text-only-section)
+    - [Text and Image Section](#text-and-image-section)
+    - [A Footer](#a-footer)
+- [Developing the CSS](#developing-the-css)
+    - [Basic CSS Properties](#basic-css-properties)
+    - [Scrollbar Propeerties](#scrollbar-properties)
+    - [Body](#body)
+    - [The Navbar](#the-navbar-1)
+        - [The Header](#the-header)
+        - [The Logo](#the-logo)
+        - [The Hamburger](#the-hamburger)
+        - [Styling Nav, Nav-list and Nav-link](#styling-nav-nav-list-and-nav-link)
+    - [The Title](#the-title-1)
+    - [Text Only Section](#text-only-section-1)
+    - [Text and Image Section](#text-and-image-section-1)
+    - [Footer](#footer)
+    - [Mobile Responsive](#mobile-responsive)
+- [Problems along the way](#problems-along-the-way)
+    - [Latest CSS not applied on HTML](#latest-css-not-applied-on-html)
+    
 ## What is Network?
 
 Network is a GitHub template designed by @rudrathegreat.
